@@ -45,8 +45,10 @@ text-transform: uppercase;
 
 .nav_link {
     color: #fff;
-    text-transform: none;
+    text-decoration: none;
     opacity: .75;
+    transition: opacity .2s
+    linear;
 }
 
 .nav_link:hover {
@@ -109,15 +111,28 @@ font-weight: 100%;
 }
 
 
-.number, .mail {
+.phone, .mail {
     margin-top: 30px;
     text-align: center;
+    
 }
 
 .phone a, .mail a {
     color: red;
     font-style: normal;
-    text-transform: none; 
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .2s
+    linear;
+}
+
+.mail a:hover {
+    text-decoration: underline;
+    opacity: 1; 
+}
+.phone a:hover {
+    text-decoration: underline;
+    opacity: 1;  
 }
 
 
