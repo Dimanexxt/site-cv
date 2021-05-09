@@ -7,11 +7,14 @@
     <title>Дмитрий Жигалов</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
 </head>
+
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="title-block">
+    <div class="container" >
+        <div class="header" id="header">
+            <div class="title-block" id="intro">
                 <h1 class="title">Дмитрий Жигалов</h1>
             </div>
             <div class="userpic">
@@ -19,12 +22,12 @@
         </div>
         <div class="nav"> 
             <ul>
-                <li><a href="#">Знания</a></li>
-                <li><a href="#">Сертификаты</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="#"data-scroll="#skills">Знания</a></li>
+                <li><a href="#"data-scroll="#sert">Сертификаты</a></li>
+                <li><a href="#"data-scroll="#contacts">Контакты</a></li>
             </ul>
         </div>
-        <div class="content-wrapper">
+        <div class="content-wrapper" id="skills">
             <div class="content">
                 <h3>Навыки и знания</h3>
                 <ul class="skills">
@@ -40,7 +43,7 @@
                 </ul>
             </div>
         </div>
-        <div class="title__sert">
+        <div class="title__sert" id="sert">
             <h3 class="title-sert">Мои Сертификаты</h3>
             <div class="content-sert">
                     
@@ -48,7 +51,7 @@
                 <div class="serttwo"></div>
             </div>
         </div>
-        <div class="content-wrapper">
+        <div class="content-wrapper" id="contacts">
             <div class="content bgr">
                 <h3>Контактная информация</h3>
                 <address class="contactsinf">
@@ -68,5 +71,7 @@
 
     </div>
     
+<script src="app.js"></script>
+
 </body>
 </html>
