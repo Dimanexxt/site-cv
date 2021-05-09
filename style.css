@@ -159,9 +159,7 @@ text-align: center;
     border: 2px solid red;
 }
 
-.contactsinf {
 
-}
 
 .phone, .mail {
     margin-top: 30px;
@@ -179,17 +177,44 @@ text-align: center;
 }
 
 .mail a:hover {
-    text-decoration: underline;
+    
     opacity: 1; 
     font-size: 28px;
     color: red;
 }
 .phone a:hover {
-    text-decoration: underline;
+    
     opacity: 1;  
     font-size: 28px;
     color: red;
 }
 .bgr {
     background: url(../site-cv/img/666.jpeg);
+}
+
+.title_git {
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.title_git p {
+color: #fff;
+}
+
+.github {
+    padding-top: 10px;
+    width: auto;
+    height: 100px;
+    color: #fff;
+    transition: transform .5s ease;
+    opacity: .5;
+}
+
+.github:hover {
+    transform: translateX(10px);
+    opacity: 1;
+    height: 110px;
+
 }
