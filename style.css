@@ -96,6 +96,7 @@ h3 {
 
 .content-wrapper {
     display: flex;
+    margin-top: 10px;
 }
 
 .content {
@@ -222,4 +223,17 @@ color: #fff;
     opacity: 1;
     height: 110px;
 
+}
+
+.content__video {
+    width: 100%;
+    background: url(../site-cv/img/222.jpeg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    
+}
+
+.video {
+    text-align: center;
+    padding-top: 40px;
 }
